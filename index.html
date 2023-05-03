@@ -1,166 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link href="style.css"rel="stylesheets">
+  <style>
+    *{padding:0;
+margin:0;
 }
-
-.nav{
-    padding: 20px 0;
+header nav ul{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background: yellow;
+    width: 100%;
+    height: 70px;
 }
+    header nav ul img{
+        width:200px;
+        height:50;
+    }
+    header nav ul li{
+      padding-top: 10px;
+        list-style-type:none;
+        color:rgb(255, 175, 3);
+        cursor: pointer;
+    }
+    header nav ul button{
+      padding:12px 28px;
+      color:rgb(250, 198, 29);
+      border:none;
+      border:radius;
+      cursor:pointer;
+    }
+    header nav ul button:hover{
+      background:none;
+      border:1px solid;
+      cursor:pointer;
+    }
+    section{
+      width:100%;
+      height:600px;
+      background-image:url();
+    }
+    .new h1 p{
+        border: 1px solid royalblu;
+        width: 800px;
+        height: 300px;
+        margin-left: 200px;
+        position: relative;
+        top: 300px;
+    }
+    h1{
+      font-size: 70px;
+      padding-top: 250px;
+      text-align:center;
+    }
+    p{
+      text-align:center;
+      padding-top:30px;
 
-.nav .container{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav .container ul{
-    display: flex;
-}
-
-.nav .container h1 span{
-    color: #ce1212;
-}
-
-.nav .container ul a{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 10px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.nav .container ul a li{
-    transition: .5s;
-}
-
-.nav .container ul .first li{
-    color: black;
-    padding: 10px 0;
-    border-bottom: 2px solid #ce1212;
-}
-
-.nav .container ul li:hover{
-    color: black;
-    border-bottom: 2px solid rebeccapurple;
-}
-
-.nav .container ul a{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 3px;
-    font-size: 16px;
-    font-weight: 600;
-    color: rebeccapurple;
-}
-
-.nav .container ul li{
-    font-size: 20px;
-    font-weight: 900;
-    padding: 10px;  
-}
-
-.nav .container .btn{
-    font-size: 14px;
-    color: white;
-    padding: 12px 20px;
-    margin-left: 30px;
-    border-radius: 50px;
-    background: rebeccapurple;
-}
-
-
-.section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
-    padding: 50px 70px;
-}
-
-.section .textlar, .section .img{
-    width: 40%;
-}
-
-.section h1{
-    font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.section .videos {
-    display: flex;
-    margin: 10px 0;
-}
-
-.section .videos a{
-    font-weight: 500;
-    font-size: 14px;
-    display: inline-block;
-    padding: 12px 36px;
-    border-radius: 50px;
-    transition: 0.5s;
-    color: #fff;
-    background:rebeccapurple;
-}
-
-.section .videos p{
-    font-size: 16px;
-    transition: 0.5s;
-    margin-left: 25px;
-    padding: 10px 0;
-    font-weight: 600;
-}
-    </style>
-    <link rel="stylesheet" href="./index.css">
+    }
+ 
+  </style>
 </head>
 <body>
-    <div class="nav">
-        <div class="container">
-            <h1>usell<span></span></h1>
-            <ul>
-                <a href="#"><li>abaut us</li></a>
-                <a href="#"><li>kompany</li></a>
-                <a href="#"><li>card</li></a>
-                <a href="#"><li>abaut</li></a>
-                <a href="#"><li>logo</li></a>
-                <a href="#"><li>usell</li></a>
-            </ul>
-            <a href="#" class="btn">abaut me</a>
-        </div>
-    </div>
-    <div class="section">
-        <div class="textlar">
-            <h1><p>usell company has been operating since <p>1996</p> <br>
-           </p> </h1>
-                <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
-                <div class="videos">
-                    <a href="#">book a table</a>
-                    <p>abaut us</p>
-                </div>
-        </div>
-        <div class="img">
-            <img src="C:/Users/User/Pictures/Без названия.png">
-        </div>
-        
-    </div>
-    <style>
-        body {background-color:white;}
-        h1 {color:rebeccapurple;}
-        p {color: rebeccapurple;}
-      </style>
+  <header>
+    <nav>
+      <ul>
+       <i class="fa-sharp fa-solid fa-album-circle-user"> f a n t a </i>
+       
+        <li>how it works</li>
+        <li>events</li>
+        <li>blog</li>
+<button>bekom a mentor</button>
+<button>sign up</button>
+<button>log in</button>
+      </ul>
+    </nav>
+</header>   
+<img width="100%" src="C:/Users/User/Pictures/CC-Fanta-WTF-product-teaser (1).jpg"><br><br><br><br>
+<section>
+<h2 style="text-align: center;"> tastier width fanta</h2><br><br>
+<p>
+ 
+</p>
+<header>
+  <nav>
+    <ul>
+<li>[coca cola]</li>
+<li>[pepsi]</li>
+<li>[sprite]</li>
+<li>[bekom a mentor]</li>
+<li>[sign up]</li>
+<li>[log initial]</li>
+    </ul>
+  </nav>
+</header> 
+Фа́нта (нем. Fanta) — безалкогольный сильногазированный прохладительный напиток с цитрусовым вкусом; выпускается корпорацией Coca-Cola
+Fanta Shokata (с бузиной)
+С апельсином
+Основной вариант вкуса — апельсиновый; в разных странах также выпускаются различные вкусовые варианты, например, в России по состоянию на 2021 год выпускались вкусы апельсина, мангуавы, шоката. В ноябре 2021 года появился вариант со вкусом апельсина без добавления сахара[1]. В Белоруссии появилась (вернулась) Фанта виноград, которая пропала с полок магазинов в 2016 и вернулась 2022.
+Классические формы выпуска — стеклянная бутылка и алюминиевая банка (от 0,15 л в Великобритании до 0,355 л в США); основной объём розничного сбыта — продукция в ПЭТ-бутылках (от 0,5 л до 2 л).
+Всего существует более 90 вариантов Fanta, при этом многие из них производятся только на территории одной страны. Фанта распространена в 190 странах мира[2]
+ </section>
 </body>
 
-</html>
+<style> 
+{
+
+} 
+h2{
+  color:yellow
+}
+  h1 {
+    color: rgb(229, 255, 0);
+    margin-top: 150px;
+  }
+  p {
+    color: rgb(238, 255, 7);
+  }
+</style>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
