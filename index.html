@@ -88,10 +88,16 @@
     align-items: center;
     background: white;
     padding: 50px 70px;
+
+    width: 89.6%;
+    height: 600px;
 }
 
-.section .textlar, .section .img{
-    width: 40%;
+ img{
+width: 300px;
+height: 300px;
+margin-right: 200px;
+border-radius: 50%;
 }
 
 .section h1{
@@ -123,20 +129,94 @@
     padding: 10px 0;
     font-weight: 600;
 }
+
+        body {background-color:gray;}
+        h1 {color:rgb(0, 167, 0);}
+        p {color: rgb(51, 153, 68);}
+     
+        .about{
+            width: 100%;
+            height: 600px;
+        }
+        .about h1{
+            text-align: center;
+            color: white;
+        }
+        .about p{
+            text-align: center;
+            color: white;
+            padding-top: 10px;
+        }
+        .boks{
+        
+            width: 300px;
+            height: 300px;
+            margin-top: 150px;
+       margin-left: 100px;
+            box-shadow: -1px 1px 4px gray;
+            border-radius: 10px;
+
+        }
+        .box{
+            display: flex;
+      
+        }
+        .box img{
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+        .box h3{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .box p{
+            text-align: center;
+        }
+        @media(max-width:571px){
+ ul li{
+                display: none;
+            }
+            .section{
+                display: block;
+            }
+            .section p{
+                text-align: center;
+            }
+            .section .videos{
+                display: block;
+            }
+            .section .videos a{
+                text-align: center;
+                margin-top: 50px;
+                margin-left: 100px;
+            }
+            .section .videos p{
+      padding-right: 100px;
+            }
+            .about{
+                width: 100%;
+                height: 700px;
+                
+            }
+            .box{
+                display: block;
+            }
+        }
     </style>
-    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <div class="nav">
         <div class="container">
             <h1>search<pan></span></h1>
             <ul>
-                <a href="#"><li>abaut us</li></a>
-                <a href="#"><li>kompany</li></a>
-                <a href="#"><li>map</li></a>
-                <a href="#"><li>abaut</li></a>
-                <a href="#"><li>wather</li></a>
-                <a href="#"><li>world</li></a>
+              <li>  <a href="#">kompany</a></li>
+              <li>  <a href="#">abaut us</a></li>
+              <li>  <a href="#">abaut</a></li>
+              <li>  <a href="#">map</a></li>
+              <li>  <a href="#">world</a></li>
+              <li>  <a href="#">wather</a></li>
             </ul>
             <a href="#" class="btn">abaut me</a>
         </div>
@@ -144,31 +224,46 @@
     <div class="section">
         <div class="textlar">
           
-           </p> </h1>
-                <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+        
+                <p>Sed autem laudantium dolores. 
+                    <br>
+                    Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
                 <div class="videos">
                     <a href="#">book a table</a>
                     <p>abaut us</p>
                 </div>
         </div>
-        <div class="img">
-            <img src="C:/Users/User/Pictures/Saved Pictures/Без названия.png" width="100%" alt="">
+        <div >
+            <img src="https://boyntonbeachpharmacy.com/wp-content/uploads/2021/07/Max-R_Headshot-1.jpg"  alt="">
         </div>
         
     </div>
-    <style>
-        body {background-color:white;}
-        h1 {color:rgb(0, 167, 0);}
-        p {color: rgb(51, 153, 68);}
-      </style>
-</body>
+    <section>
+        <div class="about">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, id.</p>
+            <div class="box">
+                <div class="boks">
+                    <img src="https://boyntonbeachpharmacy.com/wp-content/uploads/2021/07/Max-R_Headshot-1.jpg" alt="">
+<h3>Alisa</h3>
+<p>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Similique consequuntur itaque <br> accusamus libero ducimus nobis nemo quam fuga delectus cupiditate.</p>
+                </div>
+                <div class="boks">
+                    <img src="https://boyntonbeachpharmacy.com/wp-content/uploads/2021/07/Max-R_Headshot-1.jpg" alt="">
+<h3>Alisa</h3>
+<p>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Similique consequuntur itaque <br> accusamus libero ducimus nobis nemo quam fuga delectus cupiditate.</p>
+                </div>
+                <div class="boks">
+                    <img src="https://boyntonbeachpharmacy.com/wp-content/uploads/2021/07/Max-R_Headshot-1.jpg" alt="">
+<h3>Alisa</h3>
+<p>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Similique consequuntur itaque <br> accusamus libero ducimus nobis nemo quam fuga delectus cupiditate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
 
-</html>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6131044.446641034!2d64.5735819!3d41.381166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1683125499073!5m2!1sru!2s"
-   width="6000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6131044.446641034!2d64.5735819!3d41.381166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1683125499073!5m2!1sru!2s"
+   width="1348" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 </body>
-<style>
-  *{ color: rgb(7, 151, 14);
-  }
-</style>
 </html>
